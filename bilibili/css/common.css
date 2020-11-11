@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 15px;
+    font-family: '微软雅黑';
+    text-decoration-line: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 18px;
+}
+
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+a{
+	color: #000000;
+}
+a:hover{
+	color: skyblue;
+}
+.inline{
+	display: inline-block;
+}
+/* ================= 公共结构样式 ==================== */
+.header {
+    width: 100%;
+    min-width: 1300px;
+    height:260px ;
+}
+.content {
+    width: 1000px;
+    height: 2500px;
+    min-width: 1000px;
+    margin:20px auto 0;
+}
+.footer {
+    width: 100%;
+    min-width: 1300px;
+    height: 370px;
+    background-color: #f6f9fa;
+    padding:30px 0 0 0;;
+}
